@@ -4,7 +4,7 @@ const btnYes = document.getElementById('btnYes');
 const btnNo = document.getElementById('btnNo');
 
 btnYes.addEventListener('click', () => {
-    questionText.textContent = "Então você libera o Cuzinho hoje? :D";
+    questionText.textContent = "Então você libera o C*zinho hoje? :D";
     btnYes.textContent = "Sim";
     btnNo.textContent = "Não";
     btnNo.disabled = false;
@@ -27,7 +27,7 @@ btnYes.addEventListener('click', () => {
 });
 
 btnNo.addEventListener('click', () => {
-    if (questionText.textContent === "Então você libera o Cuzinho hoje? :D") {
+    if (questionText.textContent === "Então você libera o C*zinho hoje? :D") {
         const randomX = Math.random() * (window.innerWidth - 100);
         const randomY = Math.random() * (window.innerHeight - 100);
         questionDiv.style.left = `${randomX}px`;
